@@ -9,5 +9,4 @@ resource "aws_instance" "rishi" {
       Location = local.Instance_location
       added_by = var.Name
     }
-  
 }
