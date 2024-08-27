@@ -7,6 +7,5 @@ resource "aws_instance" "rishi" {
       Name = local.Instance_Name,
       username = var.Name1,
       Location = local.Instance_location
-      added_by = var.Name
     }
 }
